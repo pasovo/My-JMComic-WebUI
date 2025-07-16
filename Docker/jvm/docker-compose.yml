@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: my_jmcomic_manage:1.0
+    network_mode: bridge
+    restart: on-failure:5
+    ports:
+      # Docker端口
+      - "9011:9011"
+    volumes:
+      # 漫画库路径，请自行修改
+      #- ${漫画库路径}:/app/Archive
+      # 程序目录，请将程序放入 ./project 文件夹里
+      - ./project:/app
+    # 程序运行目录，请根据实际情况修改，以免出现文件夹无读写权限
+    user: 33:100

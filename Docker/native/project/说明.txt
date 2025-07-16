@@ -1,0 +1,10 @@
+请将静态可执行文件(app)放入此目录
+一般情况下，此目录结构应为
+.
+├── app
+├── Archive
+├── data.db.mv.db
+├── data.db.trace.db
+├── option.yml
+├── rsa-private-key.pem
+└── rsa-public-key.pem

@@ -1,0 +1,17 @@
+请将 jar 包 和 lib文件夹放入此目录
+一般情况下，此目录结构应为
+.
+├── Archive
+├── data.db.mv.db
+├── data.db.trace.db
+├── lib
+│        ├── com.aayushatharva.brotli4j.brotli4j-1.16.0.jar
+│        ├── com.aayushatharva.brotli4j.native-windows-x86_64-1.16.0.jar
+│        ├── com.aayushatharva.brotli4j.service-1.16.0.jar
+│        ├── com.cronutils.cron-utils-9.2.1.jar
+│        ├── ... 省略 ...
+│        └── org.yaml.snakeyaml-2.4.jar
+├── my_jmcomic_manage-1.0-SNAPSHOT-runner.jar
+├── option.yml
+├── rsa-private-key.pem
+└── rsa-public-key.pem
