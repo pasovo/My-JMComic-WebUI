@@ -4,7 +4,7 @@
 
 搭配Python环境，可以使用 [JMComic-Crawler-Pytho](https://github.com/hect0x7/JMComic-Crawler-Python) 这个库实现一键下载、下载完成后自然标记等功能。
 
-项目前端基于 `Vue` 实现，后端采用 `Quarkus` 实现，源代码后续再补上
+项目[前端](frontend)基于 `Vue` 实现，[后端](backend)采用 `Quarkus` 实现
 
 目前已实现功能
 1. [x] 漫画预览（竖向、横向）
