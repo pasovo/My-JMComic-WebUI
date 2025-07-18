@@ -1,0 +1,23 @@
+.SwitchMenu{
+  padding: 0 0.5rem;
+
+  .mode{
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+
+    &>li{
+      border-radius: 0.5rem;
+      height: 2rem;
+    }
+    &>li>li{
+      height: 2rem;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+
+  }
+}

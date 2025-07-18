@@ -1,0 +1,59 @@
+.Vertical{
+  .title{
+
+    .headTitle{
+      display: flex;
+
+      &>.el-text.el-tooltip__trigger{
+        flex-grow: 1;
+        text-align: center;
+        max-width: calc(100vw - 216px - 1rem);
+        margin: 0 0.5rem;
+      }
+    }
+  }
+
+  .VerticalImageBox{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    .el-image, .T-Img{
+      margin: 0 2rem;
+      min-height: 2rem;
+      flex-shrink: 0;
+
+
+      .image-slot{
+        background: #e5e7eb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  }
+  .VerticalImageBox.ver{
+    img{
+      height: auto;
+    }
+  }
+  .VerticalImageBox.horizontal{
+    .el-image,.T-Img{
+      margin: 2rem 0;
+    }
+  }
+  .VerticalImageBox.lTor{
+    flex-direction: row;
+  }
+  .VerticalImageBox.rTol{
+    flex-direction: row-reverse;
+  }
+
+  .bottom{
+    display: flex;
+    align-items: baseline;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+}

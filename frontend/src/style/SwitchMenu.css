@@ -1,0 +1,20 @@
+.SwitchMenu {
+  padding: 0 0.5rem;
+}
+.SwitchMenu .mode {
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.SwitchMenu .mode > li {
+  border-radius: 0.5rem;
+  height: 2rem;
+}
+.SwitchMenu .mode > li > li {
+  height: 2rem;
+}
+.SwitchMenu .mode a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=SwitchMenu.css.map */

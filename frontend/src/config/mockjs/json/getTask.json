@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "data": {
+    "charseName": "GBK",
+    "exitCode": 0,
+    "id": 54944155162600,
+    "log_full": "Looking in indexes: https://pypi.org/project\r\nRequirement already satisfied: jmcomic in d:\\programdata\\anaconda3\\lib\\site-packages (2.6.0)\r\nRequirement already satisfied: curl_cffi in d:\\programdata\\anaconda3\\lib\\site-packages (from jmcomic) (0.10.0)\r\nRequirement already satisfied: commonX in d:\\programdata\\anaconda3\\lib\\site-packages (from jmcomic) (0.6.37)\r\nRequirement already satisfied: PyYAML in d:\\programdata\\anaconda3\\lib\\site-packages (from jmcomic) (6.0.1)\r\nRequirement already satisfied: Pillow in d:\\programdata\\anaconda3\\lib\\site-packages (from jmcomic) (10.3.0)\r\nRequirement already satisfied: pycryptodome in d:\\programdata\\anaconda3\\lib\\site-packages (from jmcomic) (3.22.0)\r\nRequirement already satisfied: cffi>=1.12.0 in d:\\programdata\\anaconda3\\lib\\site-packages (from curl_cffi->jmcomic) (1.16.0)\r\nRequirement already satisfied: certifi>=2024.2.2 in d:\\programdata\\anaconda3\\lib\\site-packages (from curl_cffi->jmcomic) (2024.2.2)\r\nRequirement already satisfied: pycparser in d:\\programdata\\anaconda3\\lib\\site-packages (from cffi>=1.12.0->curl_cffi->jmcomic) (2.21)\r\n",
+    "manualStop": false,
+    "pid": 17204,
+    "running": false
+  },
+  "response": "success",
+  "success": true,
+  "time": "1750362090255"
+}

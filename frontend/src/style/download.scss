@@ -1,0 +1,51 @@
+.download{
+  height: 100%;
+  width: 100%;
+
+  grid-gap: 0.5rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .gap1{
+    grid-gap: 1rem;
+    gap: 1rem;
+    display: flex;
+  }
+  .gap05{
+    grid-gap: 0.5rem;
+    gap: 0.5rem;
+    display: flex;
+  }
+
+  .downloadController{
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .albumId{
+    padding-right: 0.5rem;
+  }
+
+  .downloadBox{
+    display: flex;
+    flex-direction: column;
+
+    height: calc(100vh - 60px - 2rem - 1.5rem - 1.5rem - 1.5rem - 100px);
+    overflow-y: scroll;
+
+    .downloadItem{
+      box-shadow: 0 0 0 1px var(--el-input-border-color, var(--el-border-color)) inset;
+      border-radius: var(--el-input-border-radius, var(--el-border-radius-base));
+      padding: 1rem;
+
+      flex-direction: column;
+
+      .buttonLine{
+        display: flex;
+        justify-content: space-between;
+        /*flex-direction: row-reverse;*/
+      }
+    }
+  }
+}

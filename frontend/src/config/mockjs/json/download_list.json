@@ -1,0 +1,32 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "a_id": 422866,
+      "charseName": "GBK",
+      "exitCode": 0,
+      "id": 41946088749500,
+      "log_lastLine": "[2025-06-20 00:04:38] [Thread-1 (<lambda>)]:【album.after】本子下载完成: [422866]",
+      "manualStop": false,
+      "name": "[[MANA] 神里绫华 1 (原神) [中国语] [无修正]]",
+      "pid": 12944,
+      "running": false,
+      "time": 1750349069954
+    },
+    {
+      "a_id": 422866,
+      "charseName": "GBK",
+      "exitCode": 0,
+      "id": 41946088749500,
+      "log_lastLine": "[2025-06-20 00:04:38] [Thread-1 (<lambda>)]:【album.after】本子下载完成: [422866]",
+      "manualStop": false,
+      "name": "[[MANA] 神里绫华 1 (原神) [中国语] [无修正]]",
+      "pid": 12944,
+      "running": false,
+      "time": 1750349069954
+    }
+  ],
+  "response": "success",
+  "success": true,
+  "time": "1750349083026"
+}

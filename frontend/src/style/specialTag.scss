@@ -1,0 +1,13 @@
+.specialTag{
+  height: calc(100vh - 60px - 16px - 1rem);
+  overflow-y: scroll;
+
+  .addButton{
+    margin-right: 32px;
+    margin-bottom: 18px;
+  }
+
+  .tagBox{
+    flex-wrap: wrap;
+  }
+}

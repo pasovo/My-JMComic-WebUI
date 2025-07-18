@@ -1,0 +1,81 @@
+.library {
+  /*display: flex;
+  flex-direction: column;
+  height: 100%;*/
+}
+.library .controller {
+  /*padding-bottom: 1rem;*/
+}
+.library .controller .favorites {
+  color: #e6a23c;
+}
+.library .heightBox {
+  height: 10rem;
+}
+.library .imageView {
+  /*background: rgba(0, 0, 0, 0.9);*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+  padding: 1rem;*/
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+.library .smailDivider {
+  margin: 0.5rem 0;
+}
+.library .groupView {
+  overflow-y: scroll;
+}
+.library .groupView .ListCard {
+  overflow-y: inherit;
+  max-height: none;
+}
+.library .groupView .groupFileView .title {
+  position: sticky;
+  /*top: 1rem;*/
+  top: 0;
+  padding-top: 0.5rem;
+  height: 50px;
+  background: white;
+  z-index: 50;
+}
+.library .statusBottomBar {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem;
+  width: calc(100vw - 2rem - 1rem);
+  align-items: center;
+}
+.library .statusBottomBar > span.el-tooltip__trigger {
+  flex-grow: 1;
+}
+.library .a-hidden {
+  display: none;
+}
+
+.phone .library .a-text, .smallPhone .library .a-text {
+  display: none;
+}
+.phone .library .a-hidden, .smallPhone .library .a-hidden {
+  display: flex;
+}
+.phone .library .statusBottomBar .a-text, .smallPhone .library .statusBottomBar .a-text {
+  display: none;
+}
+
+.favoriteItem {
+  display: flex;
+  align-items: center;
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+}
+.favoriteItem .el-link {
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+/*# sourceMappingURL=library.css.map */

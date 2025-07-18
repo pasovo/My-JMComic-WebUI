@@ -1,0 +1,9 @@
+{
+  "code": 200,
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwOi8vTXlKbWNvbWljTWFuYWdlLmphY2t4d2IudG9wIiwidXBuIjoicm9vdCIsImdyb3VwcyI6WyIiXSwiYmlydGhkYXRlIjoxNzUwNzc2ODUyLCJ1c2VybmFtZSI6InJvb3QiLCJydWxlcyI6IiIsImV4cCI6MTc1MDg2MzI1MiwiaWF0IjoxNzUwNzc2ODUyLCJqdGkiOiJmYTM2MjE5MC1iYjc2LTRjNmYtYTY5NS0wMDEwYzZkZjJhNzkifQ.MdbsU3t-ggHoGq1VxnH3u0zxNvpsHrcQKAKHtI-jTpjcezMBTeNh0WhVpPfTMOjg8u1TnIkn8xmygBj1kU-2IGBQqErC7SwizuIQOCjRHEdk2-2t0c_sTvhcIGRVSN33K9SKHGvAlhi8yZgfEjndtGfYHx6_Eb5rdMe-SzBeDIHuACHZi16uwqmZ1D6d6pL0G7U8m-_RCrozzx7mcriQTp42oJZ_DZ6pXak_tzGGLGSvzkRV4Y3KO8_alzkr_ra0hAzxgIgL_HvbBjnuQ3CE0x6D32NrIWLeIBcmHX8NuFId1Ushbksmnx6ph_aWPajDjTzsbZalIhFRJkXths8eMQ"
+  },
+  "response": "success",
+  "success": true,
+  "time": "1750776853226"
+}

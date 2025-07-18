@@ -1,0 +1,45 @@
+.Vertical .title .headTitle {
+  display: flex;
+}
+.Vertical .title .headTitle > .el-text.el-tooltip__trigger {
+  flex-grow: 1;
+  text-align: center;
+  max-width: calc(100vw - 216px - 1rem);
+  margin: 0 0.5rem;
+}
+.Vertical .VerticalImageBox {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.Vertical .VerticalImageBox .el-image, .Vertical .VerticalImageBox .T-Img {
+  margin: 0 2rem;
+  min-height: 2rem;
+  flex-shrink: 0;
+}
+.Vertical .VerticalImageBox .el-image .image-slot, .Vertical .VerticalImageBox .T-Img .image-slot {
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Vertical .VerticalImageBox.ver img {
+  height: auto;
+}
+.Vertical .VerticalImageBox.horizontal .el-image, .Vertical .VerticalImageBox.horizontal .T-Img {
+  margin: 2rem 0;
+}
+.Vertical .VerticalImageBox.lTor {
+  flex-direction: row;
+}
+.Vertical .VerticalImageBox.rTol {
+  flex-direction: row-reverse;
+}
+.Vertical .bottom {
+  display: flex;
+  align-items: baseline;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=Vertical.css.map */

@@ -1,0 +1,15 @@
+.config {
+  display: flex;
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.config .flexLeft {
+  align-self: flex-start;
+}
+.config .configForm {
+  max-height: calc(100vh - 60px - 52px - 1rem - 2rem);
+  overflow-y: scroll;
+}
+
+/*# sourceMappingURL=config.css.map */

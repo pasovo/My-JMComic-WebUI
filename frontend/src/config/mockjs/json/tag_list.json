@@ -1,0 +1,633 @@
+{
+  "code": 200,
+  "message": null,
+  "time": "1752816773184",
+  "data": [
+    {
+      "id": 3201,
+      "name": "短篇",
+      "type": "success",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "无修正",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "萝莉",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "单行本",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "贫乳",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    },
+    {
+      "id": 3202,
+      "name": "中文",
+      "type": "primary",
+      "color": "",
+      "effect": "dark",
+      "round": false
+    }
+  ],
+  "response": "success",
+  "success": true
+}

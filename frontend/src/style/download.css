@@ -1,0 +1,44 @@
+.download {
+  height: 100%;
+  width: 100%;
+  grid-gap: 0.5rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.download .gap1 {
+  grid-gap: 1rem;
+  gap: 1rem;
+  display: flex;
+}
+.download .gap05 {
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+  display: flex;
+}
+.download .downloadController {
+  display: flex;
+  flex-grow: 1;
+}
+.download .albumId {
+  padding-right: 0.5rem;
+}
+.download .downloadBox {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px - 2rem - 1.5rem - 1.5rem - 1.5rem - 100px);
+  overflow-y: scroll;
+}
+.download .downloadBox .downloadItem {
+  box-shadow: 0 0 0 1px var(--el-input-border-color, var(--el-border-color)) inset;
+  border-radius: var(--el-input-border-radius, var(--el-border-radius-base));
+  padding: 1rem;
+  flex-direction: column;
+}
+.download .downloadBox .downloadItem .buttonLine {
+  display: flex;
+  justify-content: space-between;
+  /*flex-direction: row-reverse;*/
+}
+
+/*# sourceMappingURL=download.css.map */

@@ -1,0 +1,38 @@
+input[type=color]{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+
+  border: none;
+  box-shadow: 0px 0px 10px 1px #000;
+}
+button{
+  padding: 0.5rem;
+}
+button.tiny-button{
+  padding: 0;
+}
+
+.gap-column,.gap-row{
+  display: flex;
+  grid-gap: 0.5rem;
+  gap: 0.5rem;
+
+  align-items: center;
+}
+.gap-row{
+  flex-direction: row;
+}
+.gap-column{
+  flex-direction: column;
+}
+.gap-column.gap-column-left{
+  align-items: flex-start;
+}
+
+.noSelect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
