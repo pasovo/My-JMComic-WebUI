@@ -1,11 +1,6 @@
 # 使用较完整的基础镜像（含glibc等依赖）
 FROM python:3.9.22-bookworm
 
-# 安装必要工具和 Java 运行环境（如需要）
-RUN apt update && \
-    apt install -y curl openjdk-17-jre && \
-    apt clean
-
 # 创建工作目录
 RUN mkdir -p /app
 WORKDIR /app
