@@ -1,58 +1,36 @@
-#FROM python:3.9.22-alpine
+# 使用较完整的基础镜像（含glibc等依赖）
 FROM python:3.9.22-bookworm
 
+# 安装必要工具和 Java 运行环境（如需要）
+RUN apt update && \
+    apt install -y curl openjdk-17-jre && \
+    apt clean
+
+# 创建工作目录
 RUN mkdir -p /app
 WORKDIR /app
 
-# 指定用户UID和GID
+# 下载 My-JMComic-WebUI 的 Linux 可执行文件，并添加执行权限
+RUN curl -L -o /app/app https://github.com/Jackxwb/My-JMComic-WebUI/releases/latest/download/app_linux_amd64 && \
+    chmod +x /app/app
+
+# 设置用户参数
 ARG USER_ID=33
 ARG GROUP_ID=100
 ARG USERNAME=www-data
 
-# 创建或更新组和用户的脚本
+# 创建用户和组（若不存在），并赋予 /app 权限
 RUN set -xe; \
-    \
-    # 检查并创建组 \
     if ! getent group ${GROUP_ID} >/dev/null; then \
-        if getent group users >/dev/null; then \
-            # 如果users组存在但GID不匹配，则修改GID \
-            [ $(getent group users | cut -d: -f3) -eq ${GROUP_ID} ] || \
-            groupmod -g ${GROUP_ID} users; \
-        else \
-            # 创建新组 \
-            addgroup -g ${GROUP_ID} users; \
-        fi; \
+        addgroup --gid ${GROUP_ID} users; \
     fi; \
-    \
-    # 检查并创建用户 \
     if ! getent passwd ${USER_ID} >/dev/null; then \
-        if getent passwd ${USERNAME} >/dev/null; then \
-            # 如果用户存在但UID不匹配，则修改UID \
-            [ $(getent passwd ${USERNAME} | cut -d: -f3) -eq ${USER_ID} ] || \
-            usermod -u ${USER_ID} ${USERNAME}; \
-        else \
-            # 创建新用户 \
-            adduser -u ${USER_ID} -G users -D -h /home/${USERNAME} -s /bin/sh ${USERNAME}; \
-        fi; \
+        adduser --uid ${USER_ID} --gid ${GROUP_ID} --disabled-password --gecos "" ${USERNAME}; \
     fi; \
-    \
-    # 确保用户属于正确的组 \
-    if ! id -nG ${USERNAME} | grep -qw users; then \
-        adduser ${USERNAME} users; \
-    fi
+    chown -R ${USERNAME}:users /app
 
-# 设置sudo权限（可选）
-RUN echo '${USERNAME} ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+# 切换为安全的非 root 用户运行程序
+USER ${USERNAME}
 
-## -- python --
-
-# 安装 jmcomic 库，如果无法安装，请自行更换源
-# RUN pip install jmcomic -i https://pypi.org/project -U
-RUN pip install jmcomic -i https://mirrors.aliyun.com/pypi/simple/ -U
-
-# 补充项目依赖
-RUN pip install flask -i https://mirrors.aliyun.com/pypi/simple/ -U
-
-## -- python --
-
+# 执行主程序（Linux 可执行）
 CMD ["/app/app"]
